@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pcf
+spec:
+  replicas: {{ .Values.pcf.replicaCount }}
+  selector:
+    matchLabels:
+      app: pcf
+  template:
+    metadata:
+      labels:
+        app: pcf
+    spec:
+      containers:
+      - name: pcf
+        image: pcf:latest
+        resources:
+          limits:
+            cpu: {{ .Values.pcf.resources.limits.cpu }}m
+            memory: {{ .Values.pcf.resources.limits.memory }}Mi

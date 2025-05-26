@@ -1,0 +1,1186 @@
+
+
+    29.37%    29.37%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] finish_task_switch.isra.0
+
+    18.84%    18.84%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] handle_softirqs
+
+    17.86%    17.86%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] handle_softirqs
+
+    14.19%    14.19%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] finish_task_switch.isra.0
+
+     6.52%     6.52%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] finish_task_switch.isra.0
+
+     3.57%     3.57%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] handle_softirqs
+
+     1.59%     1.59%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] vbg_req_perform
+
+     1.36%     1.36%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] vbg_req_perform
+
+     1.35%     1.35%     0.00%  fd-routing-out  [kernel.kallsyms]            [k] finish_task_switch.isra.0
+
+     1.35%     1.35%     0.00%  fd-routing-in   [kernel.kallsyms]            [k] finish_task_switch.isra.0
+
+     0.79%     0.79%     0.00%  fd-routing-in   [kernel.kallsyms]            [k] handle_softirqs
+
+     0.70%     0.70%     0.00%  fd-routing-out  [kernel.kallsyms]            [k] handle_softirqs
+
+     0.39%     0.39%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] vbg_req_perform
+
+     0.20%     0.20%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] _raw_spin_unlock_irqrestore
+
+     0.13%     0.13%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] _raw_spin_unlock_irqrestore
+
+     0.08%     0.08%     0.00%  fd-routing-in   [kernel.kallsyms]            [k] vbg_req_perform
+
+     0.08%     0.08%     0.00%  fd-routing-out  [kernel.kallsyms]            [k] vbg_req_perform
+
+     0.05%     0.05%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sctp_rcv
+
+     0.04%     0.04%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_v4_rcv
+
+     0.04%     0.04%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] security_sock_rcv_skb
+
+     0.04%     0.04%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] skb_release_head_state
+
+     0.03%     0.03%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sctp_data_ready
+
+     0.03%     0.03%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] irqentry_exit_to_user_mode
+
+     0.03%     0.03%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] kfree
+
+     0.03%     0.03%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ip_finish_output
+
+     0.03%     0.00%     0.03%  open5gs-amfd    libc.so.6                    [.] _int_malloc
+
+     0.03%     0.03%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] tcp_v4_rcv
+
+     0.02%     0.02%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] srso_alias_safe_ret
+
+     0.02%     0.02%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] ip_local_deliver
+
+     0.02%     0.02%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] tcp_try_rmem_schedule
+
+     0.02%     0.02%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sctp_addrs_lookup_transport
+
+     0.02%     0.02%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ip_rcv_core
+
+     0.02%     0.00%     0.02%  open5gs-amfd    libc.so.6                    [.] malloc
+
+     0.02%     0.02%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ip_local_deliver
+
+     0.02%     0.02%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_rack_advance
+
+     0.02%     0.00%     0.02%  open5gs-smfd    libc.so.6                    [.] _int_malloc
+
+     0.02%     0.02%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sctp_chunkify
+
+     0.02%     0.02%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] dst_release
+
+     0.02%     0.02%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] irqentry_exit_to_user_mode
+
+     0.01%     0.01%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] kmem_cache_free
+
+     0.01%     0.01%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] mod_memcg_state
+
+     0.01%     0.01%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sctp_new_state
+
+     0.01%     0.00%     0.01%  open5gs-amfd    libc.so.6                    [.] __strlen_sse2
+
+     0.01%     0.01%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] security_sock_rcv_skb
+
+     0.01%     0.00%     0.01%  open5gs-amfd    libc.so.6                    [.] __memset_sse2_unaligned_erms
+
+     0.01%     0.00%     0.01%  open5gs-amfd    libc.so.6                    [.] __vfprintf_internal
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] __memset_sse2_unaligned_erms
+
+     0.01%     0.01%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] refill_stock
+
+     0.01%     0.01%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] read_tsc
+
+     0.01%     0.01%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] sk_reset_timer
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] _int_free
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] malloc
+
+     0.01%     0.00%     0.01%  open5gs-amfd    libc.so.6                    [.] _int_free
+
+     0.01%     0.00%     0.01%  open5gs-amfd    libc.so.6                    [.] cfree@GLIBC_2.2.5
+
+     0.01%     0.01%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] skb_network_protocol
+
+     0.01%     0.01%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __netif_receive_skb_core.constprop.0
+
+     0.01%     0.01%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __tcp_ack_snd_check
+
+     0.01%     0.01%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] udp4_lib_lookup2
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] malloc_consolidate
+
+     0.01%     0.01%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __local_bh_enable_ip
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] __strlen_sse2
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] pthread_mutex_lock@@GLIBC_2.2.5
+
+     0.01%     0.01%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ip_rcv_finish_core.constprop.0
+
+     0.01%     0.00%     0.01%  open5gs-amfd    libc.so.6                    [.] __GI___strcmp_ssse3
+
+     0.01%     0.00%     0.01%  open5gs-amfd    libc.so.6                    [.] __memcpy_ssse3
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] __GI___strcmp_ssse3
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] __memcmp_sse4_1
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] __memcpy_ssse3
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libc.so.6                    [.] __vfprintf_internal
+
+     0.01%     0.00%     0.01%  open5gs-smfd    libogscore.so.2.7.2          [.] 0x0000000000017e69
+
+     0.01%     0.01%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] _raw_spin_unlock_irqrestore
+
+     0.01%     0.00%     0.01%  open5gs-amfd    libc.so.6                    [.] _IO_default_xsputn
+
+     0.01%     0.00%     0.01%  open5gs-amfd    libc.so.6                    [.] unlink_chunk.constprop.0
+
+     0.01%     0.01%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __get_user_8
+
+     0.01%     0.01%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] sock_def_readable
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] _raw_spin_unlock_irq
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] malloc_consolidate
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] pthread_mutex_unlock@@GLIBC_2.2.5
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] SEQUENCE_encode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x000000000001a57e
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] e1000_clean
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_log_vprintf
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __sk_mem_reduce_allocated
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] do_epoll_ctl
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] nf_hook_slow
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sctp_do_sm
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [vdso]                       [.] 0x0000000000000b03
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __memcmp_sse4_1
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __strchrnul_sse2
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __strftime_internal
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __strncmp_sse42
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] curl_easy_setopt
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] nghttp2_session_send
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] SEQUENCE_decode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_timer_mgr_expire
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x000000000001a528
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __nf_conntrack_find_get
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __libc_recvmsg
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __strchrnul_sse2
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] cfree@GLIBC_2.2.5
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] unlink_chunk.constprop.0
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_timer_add
+
+     0.00%     0.00%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] __get_user_8
+
+     0.00%     0.00%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] irqentry_exit_to_user_mode
+
+     0.00%     0.00%     0.00%  fd-dispatch     libc.so.6                    [.] clock_gettime@@GLIBC_2.17
+
+     0.00%     0.00%     0.00%  fd-routing-in   [kernel.kallsyms]            [k] _raw_spin_unlock_irqrestore
+
+     0.00%     0.00%     0.00%  fd-routing-out  [kernel.kallsyms]            [k] _raw_spin_unlock_irqrestore
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __fdget_raw
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __inet_lookup_established
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __kmalloc_node_track_caller
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __memcg_slab_free_hook
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __nf_conntrack_find_get
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __radix_tree_lookup
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] aa_inet_msg_perm
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] balance_dirty_pages_ratelimited_flags
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] do_syscall_64
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] e1000_xmit_frame
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] kmem_cache_alloc_node
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] schedule_debug.constprop.0
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_inbound_hash.constprop.0
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] _IO_fputs
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] _IO_no_init
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __strchr_sse2
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] epoll_ctl
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] epoll_wait
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] pthread_mutex_lock@@GLIBC_2.2.5
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] realloc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000002f4c4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000003e842
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000065495
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] nghttp2_session_mem_recv
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000016001
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000018b02
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] NativeEnumerated_decode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] NativeInteger_compare
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] NativeInteger_decode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] NativeInteger_encode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] NativeInteger_free
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] SEQUENCE_OF_encode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-ngap.so.2.7.2    [.] 0x00000000001a8326
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_get_monotonic_time
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_log_vprintf
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_pollset_remove
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_rbtree_first
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_timer_add
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x000000000001a558
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x000000000001a820
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscrypt.so.2.7.2         [.] ogs_aes_setup_enc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsnas-5gs.so.2.7.2       [.] ogs_nas_5gmm_encode
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_n1_n2_message_transfer_req_data_parseFromJSON
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_nf_type_ToString
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_ue_context_in_smf_data_create
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] ogs_sbi_response_new
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] ogs_sbi_xact_add
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libprom.so                   [.] prom_counter_add
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libtalloc.so.2.3.3           [.] 0x00000000000042c6
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __fdget
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __ip_select_ident
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] begin_current_label_crit_section
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] do_epoll_ctl
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] do_syscall_64
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] do_user_addr_fault
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] fib_lookup_good_nhc
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] fib_rules_lookup
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] ip_local_deliver_finish
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] ip_rcv_core
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] nf_conntrack_tcp_packet
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [vdso]                       [.] 0x0000000000000b03
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __strftime_internal
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __strncmp_sse42
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] nghttp2_check_header_value
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000016001
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000016051
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_inet_ntop
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] ogs_sbi_client_send_request
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] ogs_sbi_xact_add
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libtalloc.so.2.3.3           [.] _talloc_free
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libtalloc.so.2.3.3           [.] 0x00000000000040ca
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libtalloc.so.2.3.3           [.] 0x00000000000042d4
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x000000000005bd04
+
+     0.00%     0.00%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] do_syscall_64
+
+     0.00%     0.00%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] e1000_alloc_rx_buffers
+
+     0.00%     0.00%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] e1000_clean
+
+     0.00%     0.00%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] futex_wake
+
+     0.00%     0.00%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] mem_cgroup_handle_over_high
+
+     0.00%     0.00%     0.00%  fd-dispatch     [kernel.kallsyms]            [k] plist_add
+
+     0.00%     0.00%     0.00%  fd-dispatch     libc.so.6                    [.] __sigsetjmp
+
+     0.00%     0.00%     0.00%  fd-dispatch     libfdcore.so.1.5.0           [.] clock_gettime@plt
+
+     0.00%     0.00%     0.00%  fd-dispatch     libfdproto.so.1.5.0          [.] __pthread_unregister_cancel@plt
+
+     0.00%     0.00%     0.00%  fd-routing-in   [kernel.kallsyms]            [k] futex_unqueue
+
+     0.00%     0.00%     0.00%  fd-routing-in   [kernel.kallsyms]            [k] irqentry_exit_to_user_mode
+
+     0.00%     0.00%     0.00%  fd-routing-in   [vdso]                       [.] 0x0000000000000ab0
+
+     0.00%     0.00%     0.00%  fd-routing-in   libc.so.6                    [.] pthread_cond_timedwait@@GLIBC_2.3.2
+
+     0.00%     0.00%     0.00%  fd-routing-out  [kernel.kallsyms]            [k] __get_user_8
+
+     0.00%     0.00%     0.00%  fd-routing-out  [kernel.kallsyms]            [k] _copy_from_user
+
+     0.00%     0.00%     0.00%  fd-routing-out  libc.so.6                    [.] __pthread_unregister_cancel@@GLIBC_2.34
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __call_rcu_common
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __ep_remove
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __ext4_get_inode_loc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __fdget
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __get_user_8
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __pte_offset_map
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __put_user_nocheck_4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __tcp_select_window
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __tcp_transmit_skb
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __virt_addr_valid
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __x86_indirect_thunk_rax
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] __xfrm_policy_check2.constprop.0
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] _copy_from_user
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] _raw_write_unlock_irq
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] aa_file_perm
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] aa_inet_sock_perm
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] apparmor_file_permission
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] consume_obj_stock
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] cubictcp_cwnd_event
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] do_fcntl
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] do_sys_poll
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ep_send_events
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ext4_get_group_desc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ext4_get_inode_loc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] fput
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] generic_perform_write
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] get_close_on_exec
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] hash_conntrack_raw
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] inode_to_bdi
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ip_output
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ip_rcv
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ipv4_dst_check
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] ktime_get_ts64
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] mas_walk
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] maybe_add_creds
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] mutex_lock
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] nf_confirm
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] nf_conntrack_handle_packet
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] nf_nat_inet_fn
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] nf_nat_ipv4_local_fn
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] page_copy_sane
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] read_tsc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] refill_obj_stock
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] rmqueue
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] schedule
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sctp_make_sack
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sctp_sendmsg
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sctp_ulpevent_free
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] security_socket_recvmsg
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] skb_dequeue
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] skb_page_frag_refill
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sock_poll
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sock_recvmsg
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] sockfd_lookup_light
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_check_space
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_clean_rtx_queue.constprop.0
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_data_queue
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_established_options
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_event_new_data_sent
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_options_write
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_rate_skb_sent
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_rbtree_insert
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] tcp_sendmsg_locked
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] unix_stream_sendmsg
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [kernel.kallsyms]            [k] x64_sys_call
+
+     0.00%     0.00%     0.00%  open5gs-amfd    [vdso]                       [.] 0x0000000000000ab0
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] _IO_setb
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __GI___libc_write
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __GI_strtoll
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __libc_calloc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __libc_recv
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __mpn_construct_double
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __strcspn_sse2
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __strdup
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __tz_convert
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __tzstring
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __vfscanf_internal
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] __vsnprintf_internal
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libc.so.6                    [.] getenv
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] curl_easy_cleanup
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] curl_easy_init
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] curl_multi_socket_action
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] curl_slist_free_all
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] curl_url_set
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000133f0
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000014c14
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000001cd16
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000001cd82
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000289db
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000002f78f
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000035120
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000353c4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000369a4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000369b0
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000038879
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000003bdc5
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000003d3b4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000003d4c1
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000040163
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000407e1
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000042f39
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000047607
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000482d3
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000048d2b
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000049db4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000005b167
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000005b169
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000005b1c4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000644c4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000065c3f
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000074e8d
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000007ea73
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000007ede7
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] nghttp2_check_header_name
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] nghttp2_rcbuf_incref
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] nghttp2_session_want_read
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000006820
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x00000000000069e5
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000007323
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x000000000000bf07
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000011920
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000011994
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000013522
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000015f66
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000015fe9
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x000000000001600c
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000016015
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000016463
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x00000000000164fc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000016bca
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libnghttp2.so.14.20.1        [.] 0x0000000000017c9e
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] CHOICE_decode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] CHOICE_encode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] INTEGER_decode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] INTEGER_encode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] OCTET_STRING_decode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] SET_OF_decode_aper
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] aper_encode
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] aper_open_type_get
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsasn1c-common.so.2.7.2  [.] asn_get_many_bits
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_hash_next
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_nonblocking
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_slprintf
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_talloc_asprintf
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_talloc_free
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_talloc_strdup
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_timer_start_debug
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] ogs_uint64_to_string
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x0000000000008034
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x000000000001a5cc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x000000000001a62b
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x000000000001a844
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x000000000001b2dc
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscore.so.2.7.2          [.] 0x000000000001b64a
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscrypt.so.2.7.2         [.] ogs_aes_encrypt
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogscrypt.so.2.7.2         [.] ogs_base64_encode_binary
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsnas-5gs.so.2.7.2       [.] ogs_nas_5gmm_decode
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsnas-5gs.so.2.7.2       [.] ogs_nas_5gs_decode_5gs_registration_type
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsnas-5gs.so.2.7.2       [.] ogs_nas_5gs_decode_authentication_response
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsnas-5gs.so.2.7.2       [.] ogs_pkbuf_alloc_debug@plt
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsngap.so.2.7.2          [.] ogs_ngap_decode
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogsproto.so.2.7.2         [.] ogs_event_new
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_access_and_mobility_subscription_data_parseFromJSON
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_access_type_ToString
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_authentication_info_convertToJSON
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_links_value_schema_parseFromJSON
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_ncgi_convertToJSON
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_policy_association_request_convertToJSON
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_sm_context_update_data_convertToJSON
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] cJSON_PrintUnformatted
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] 0x000000000006a7d0
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] 0x000000000006a972
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi-openapi.so.2.7.2   [.] 0x000000000006db35
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] ogs_app@plt
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] ogs_sbi_client_send_via_scp_or_sepp
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] ogs_sbi_parse_header
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] ogs_sbi_request_new
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] ogs_sbi_self
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] ogs_sbi_url_decode
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] ogs_talloc_strdup@plt
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] 0x0000000000027f64
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssbi.so.2.7.2           [.] 0x0000000000028642
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libogssctp.so.2.7.2          [.] ogs_sctp_senddata
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libprom.so                   [.] prom_metric_sample_add
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libtalloc.so.2.3.3           [.] _talloc_free
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libtalloc.so.2.3.3           [.] talloc_named_const
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libtalloc.so.2.3.3           [.] 0x00000000000041c2
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libtalloc.so.2.3.3           [.] 0x00000000000042d4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    libtalloc.so.2.3.3           [.] 0x0000000000004c46
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x0000000000008414
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x0000000000008f80
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x0000000000008f84
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x00000000000102b4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x0000000000011267
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x00000000000142d4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x000000000001d3e4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x00000000000305db
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x0000000000034735
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x00000000000408d4
+
+     0.00%     0.00%     0.00%  open5gs-amfd    open5gs-amfd                 [.] 0x000000000004ed42
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __alloc_pages
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __alloc_skb
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __folio_throttle_swaprate
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __inet_lookup_established
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __ip_make_skb
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __lruvec_stat_mod_folio
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __memcg_slab_post_alloc_hook
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __next_zones_zonelist
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __put_user_8
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __put_user_nocheck_4
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __rcu_read_lock
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __rcu_read_unlock
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __rseq_handle_notify_resume
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __skb_datagram_iter
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __sys_recvfrom
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __sys_recvmsg
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __sys_sendto
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __timer_delete_sync
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] __x64_sys_sendto
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] _raw_spin_lock_bh
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] _raw_spin_unlock_bh
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] _raw_write_unlock_irq
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] alloc_skb_with_frags
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] check_heap_object
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] clear_page_rep
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] cond_accept_memory
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] copy_msghdr_from_user
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] crng_make_state
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] e1000_alloc_rx_buffers
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] ep_insert
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] ep_ptable_queue_proc
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] fib_table_lookup
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] filemap_get_entry
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] find_exception
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] free_pages_and_swap_cache
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] futex_wake
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] get_mem_cgroup_from_mm
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] inet_recvmsg
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] inet_send_prepare
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] ip_finish_output2
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] ip_make_skb
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] ip_rcv
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] kmem_cache_free
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] kthread_blkcg
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] lock_vma_under_rcu
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] mem_cgroup_uncharge_skmem
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] mod_delayed_work_on
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] mutex_unlock
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] nf_conntrack_in
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] percpu_counter_add_batch
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] rb_erase
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] rep_movs_alternative
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] schedule_hrtimeout_range
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] sctp_datamsg_from_user
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] sk_page_frag_refill
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] skb_free_head
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] skb_put
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] srso_alias_safe_ret
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] syscall_exit_to_user_mode
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] task_mm_cid_work
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] vfs_write
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [kernel.kallsyms]            [k] x64_sys_call
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [vdso]                       [.] 0x000000000000086c
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [vdso]                       [.] 0x00000000000008c2
+
+     0.00%     0.00%     0.00%  open5gs-smfd    [vdso]                       [.] 0x0000000000000ab0
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] _IO_default_xsputn
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] _IO_fflush
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] _IO_str_init_static_internal
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __GI_____strtoull_l_internal
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __GI_strtoll
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __libc_calloc
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __offtime
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __poll
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __strcasecmp_sse42
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __strdup
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __vfscanf_internal
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] __vsnprintf_chk
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] _itoa_word
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] clock_gettime@@GLIBC_2.17
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] epoll_ctl
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] epoll_wait
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] pthread_rwlock_wrlock@@GLIBC_2.34
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] realloc
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] strptime
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libc.so.6                    [.] strtod
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] curl_easy_setopt
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] curl_slist_append
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] curl_slist_free_all
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000013e03
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000001cd16
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000001cd29
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000293fc
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000002b16f
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000002fa5b
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000003d4a3
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000003fec2
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000003ffa4
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000420ad
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000043791
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000045650
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000046795
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000004cfbf
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000004cfc1
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x000000000004f52d
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000060ca4
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000644c4
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x00000000000771c2
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libcurl-gnutls.so.4.7.0      [.] 0x0000000000078084
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libfdcore.so.1.5.0           [.] fd_cnx_teststate
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libfdcore.so.1.5.0           [.] fd_sctp_recvmeta
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] nghttp2_rcbuf_incref
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] nghttp2_session_want_read
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x000000000000759b
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x000000000000b674
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x000000000000be57
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000011613
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000011630
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000011670
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000012c32
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000012ca7
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000015995
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x000000000001599c
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000015fe9
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000016015
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libnghttp2.so.14.20.1        [.] 0x0000000000017c9e
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogsasn1c-common.so.2.7.2  [.] ASN__PRIMITIVE_TYPE_free
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogsasn1c-common.so.2.7.2  [.] CHOICE_encode_aper
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogsasn1c-common.so.2.7.2  [.] SEQUENCE_encode_aper
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogsasn1c-common.so.2.7.2  [.] aper_encode
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogsasn1c-common.so.2.7.2  [.] asn_imax2INTEGER
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_log_printf
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_queue_push
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_rbtree_first
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_sockaddr_is_equal
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_talloc_size
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_timer_mgr_expire
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_timer_stop_debug
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_tlv_build_msg
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] ogs_tlv_parse_msg
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] 0x0000000000017e5f
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] 0x000000000001a558
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] 0x000000000001a57e
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] 0x000000000001a5cc
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] 0x000000000001a62f
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] 0x000000000001a820
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] 0x000000000001a844
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogscore.so.2.7.2          [.] 0x000000000001a91d
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogsnas-5gs.so.2.7.2       [.] ogs_nas_5gs_decode_pdu_session_establishment_request
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogsnas-5gs.so.2.7.2       [.] ogs_nas_5gs_encode_session_ambr
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogsnas-5gs.so.2.7.2       [.] ogs_nas_5gsm_decode
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogspfcp.so.2.7.2          [.] ogs_pfcp_far_remove
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogspfcp.so.2.7.2          [.] ogs_pfcp_pdr_add
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogspfcp.so.2.7.2          [.] ogs_pfcp_qer_add
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogspfcp.so.2.7.2          [.] ogs_pfcp_urr_add
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogspfcp.so.2.7.2          [.] ogs_pfcp_xact_receive
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogspfcp.so.2.7.2          [.] 0x000000000002b584
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_guami_parseFromJSON
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_n1_message_container_convertToJSON
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_ncgi_parseFromJSON
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_sm_context_create_data_parseFromJSON
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] OpenAPI_sm_context_update_data_parseFromJSON
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] cJSON_CreateObject
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] cJSON_IsObject
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] cJSON_Parse
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] ogs_talloc_free@plt
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi-openapi.so.2.7.2   [.] 0x000000000006d96d
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] multipart_parser_execute
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] ogs_random@plt
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] ogs_sbi_message_free
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] ogs_sbi_parse_header
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] ogs_sbi_response_new
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] ogs_sbi_supi_in_vplmn
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] ogs_sbi_xact_find_by_id
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] 0x000000000001c844
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] 0x0000000000023504
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] 0x0000000000025a90
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] 0x0000000000027768
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libogssbi.so.2.7.2           [.] 0x000000000002dc4b
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libprom.so                   [.] prom_gauge_add
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libprom.so                   [.] prom_metric_sample_from_labels
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libprom.so                   [.] prom_string_builder_add_str
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libtalloc.so.2.3.3           [.] malloc@plt
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libtalloc.so.2.3.3           [.] talloc_strdup
+
+     0.00%     0.00%     0.00%  open5gs-smfd    libtalloc.so.2.3.3           [.] 0x0000000000004da8
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x0000000000014ab4
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x000000000001a738
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x0000000000028c70
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x00000000000292c1
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x000000000002d129
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x0000000000049ae2
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x000000000004bfb4
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x000000000004f04e
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x000000000005052c
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x000000000005061e
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x0000000000051e6e
+
+     0.00%     0.00%     0.00%  open5gs-smfd    open5gs-smfd                 [.] 0x0000000000055664
+

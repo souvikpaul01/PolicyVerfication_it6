@@ -1,0 +1,20 @@
+amf:
+  replicaCount: 2
+  resources:
+    limits:
+      cpu: 3000
+      memory: 120
+
+smf:
+  replicaCount: 30
+  resources:
+    limits:
+      cpu: 350
+      memory: 150
+
+pcf:
+  replicaCount: 2
+  resources:
+    limits:
+      cpu: 280
+      memory: 1000 

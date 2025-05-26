@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smf
+spec:
+  replicas: {{ .Values.smf.replicaCount }}
+  selector:
+    matchLabels:
+      app: smf
+  template:
+    metadata:
+      labels:
+        app: smf
+    spec:
+      containers:
+      - name: smf
+        image: smf:latest
+        resources:
+          limits:
+            cpu: {{ .Values.smf.resources.limits.cpu }}m
+            memory: {{ .Values.smf.resources.limits.memory }}Mi

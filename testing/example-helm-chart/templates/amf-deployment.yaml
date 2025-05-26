@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: amf
+spec:
+  replicas: {{ .Values.amf.replicaCount }}
+  selector:
+    matchLabels:
+      app: amf
+  template:
+    metadata:
+      labels:
+        app: amf
+    spec:
+      containers:
+      - name: amf
+        image: amf:latest
+        resources:
+          limits:
+            cpu: {{ .Values.amf.resources.limits.cpu }}m
+            memory: {{ .Values.amf.resources.limits.memory }}Mi

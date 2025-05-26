@@ -1,0 +1,5 @@
+apiVersion: v2
+name: example-helm-chart
+description: A Helm chart for deploying AMF, SMF, and PCF components
+version: 1.0.0
+type: application
